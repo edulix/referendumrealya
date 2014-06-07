@@ -354,8 +354,8 @@ section.section {
   --- Header & menu ----
 =========================== */
 .navbar {
-	line-height: 100px;
-	height: 100px;
+	line-height: 30px;
+	height: 30px;
 	background-color: rgba(0,0,0,0.3);
 	display: block;
 	vertical-align: middle;
@@ -403,11 +403,11 @@ section.section {
 	color: #fff;
 }
 .navbar .navbar-nav > .active > a {
-	padding-bottom: 22px;
+	padding-bottom: 10px;
 }
 
 h1 a.navbar-brand {
-	font-size: 24px;
+	font-size: 18px;
 	color: #fff;
 	font-weight: 900;
 	text-shadow: none;
@@ -417,7 +417,7 @@ h1 a.navbar-brand {
 	padding: 0;
 	display: table-cell;
 	vertical-align: middle;
-	line-height: 90px;
+	line-height: 30px;
 }
 
 .navbar-brand img {
@@ -427,7 +427,7 @@ h1 a.navbar-brand {
 .navbar-toggle {
 	padding: 0;
 	margin: 0;
-	width: 80px;
+	width: 30px;
 }
 
 .navbar-collapse.in {
