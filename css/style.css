@@ -347,7 +347,7 @@ section.section {
 #testimonials{	
 	background-image: url(../img/parallax/ref1.jpeg);
 	background-color:#A914B6;
-    border-radius: 10px;
+  /*  border-radius: 10px; */
 }
 
 #testimonials ul, #testimonials li {
