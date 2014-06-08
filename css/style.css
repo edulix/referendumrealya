@@ -48,7 +48,7 @@ blockquote {
 
 blockquote.bigquote {
 	border: none;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.1em;
 }
@@ -340,6 +340,9 @@ section.section {
 }
 #parallax2{	
 	background-image: url(../img/parallax/img2.jpg);
+}
+#parallax3{	
+	background-image: url(../img/parallax/apasaidoSolManos.jpg);
 }
 #testimonials{	
 	/*background-image: url(../img/parallax/img3.jpg);*/
