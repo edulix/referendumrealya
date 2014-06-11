@@ -18,9 +18,42 @@
 		<!-- skin -->
 		<link rel="stylesheet" href="skin/default.css">
 		<link rel="shortcut icon" href="img/logoRefYA140x140.png">
+      
+       <!-- Cuenta atras -->
+         <script>
+        function countdown(id){
+    var fecha=new Date('2014','5','14','8','00','00')
+    var hoy=new Date()
+    var dias=0
+    var horas=0
+    var minutos=0
+    var segundos=0
+
+    if (fecha>hoy){
+        var diferencia=(fecha.getTime()-hoy.getTime())/1000
+        dias=Math.floor(diferencia/86400)
+        diferencia=diferencia-(86400*dias)
+        horas=Math.floor(diferencia/3600)
+        diferencia=diferencia-(3600*horas)
+        minutos=Math.floor(diferencia/60)
+        diferencia=diferencia-(60*minutos)
+        segundos=Math.floor(diferencia)
+
+        document.getElementById(id).innerHTML='Sólo falta ' + dias + ' D&iacute;as, ' + horas + ' Horas, ' + minutos + ' Minutos, ' + segundos + ' Segundos'
+
+        if (dias>0 || horas>0 || minutos>0 || segundos>0){
+            setTimeout("countdown(\"" + id + "\")",1000)
+        }
+    }
+    else{
+        document.getElementById('restante').innerHTML='Quedan ' + dias + ' D&iacute;as, ' + horas + ' Horas, ' + minutos + ' Minutos, ' + segundos + ' Segundos'
+    }
+}
+         </script>
+      
     </head>
 	 
-    <body>
+    <body onload="countdown('contador')">
 		<section id="header" class="appear"></section>
 		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:30px; height:30px; background-color:rgba(0,0,0,1);">
 			 <div class="container">
@@ -53,8 +86,8 @@
               <img src="img/logoRefYA140x140.png" rel="image_src" alt='Referendum Real Ya'>
 							<h2 class="slogan">¡Refer&eacute;ndum Real Ya!</h2>
 							<p>
-							Desde el 14 hasta el 19 a las 12:00 de la mañana de Junio de 2014. 
-              Presencialmente y por internet.
+							Desde el 14 hasta el 19 a las 12:00 de la mañana de junio de 2014. 
+              Presencialmente y por internet. <div id='contador'></div>
               ¡Pon Tu Mesa!
               </p>	
               <br><br>
@@ -144,17 +177,8 @@
 				<div class="col-lg-4" >
 				  <div class="align-center">
 						<!--<i class="fa fa-bolt fa-5x mar-bot20"></i>-->
-                                                <img src="img/referendumrealya/icono_urna02.png" alt='Saca tu punto de consulta'>
-					<h4 class="text-bold">Saca tu punto de consulta</h4>
-                                        <p>Proximamente te informaremos de los pasos necesarios para colaborar en la consulta. Puedes ir rellenando el formulario para registrar tu mesa. <a href="http://madrid.tomalaplaza.net/2014/06/10/preguntas-y-respuestas-para-las-mesas-del-referendum-real-ya/">Preguntas y respuestas</a></p>
-                                        
-					 <div class="hidden"> <p>Puedes reclamar tu derecho a decidir e invitar a tus vecinos montando un  punto de consulta. Sólo tienes que...<br>
-también puedes difundir esta propuesta con carteles(enlace a material), o redes  sociales.<br>
-<br>
-INFORMACIÓN LEGAL<br>
-SI COMUNICAS<br>
-Modelo de  comunicación a Ayuntamiento- Plazos<br>
-SI NO COMUNICAS<br>Mesas  itinerantes: No se puede instalar una mesa fija pero si se puede estar de pie</p></div>
+                                                <a href="material.html"><img src="img/referendumrealya/iconoMaterialDifusion.png" alt='Material de difuson'></a>
+					<h4 class="text-bold">Material de difusión</h4>
 					</div>
 				</div>
 			
@@ -401,7 +425,7 @@ Que teniendo por presentado este escrito, so sirva admitirlo, tenga por hechas l
                 var map = new google.maps.Map(mapElement, mapOptions);
             }
         </script>
-        
+       
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
