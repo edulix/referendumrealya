@@ -124,12 +124,12 @@
         }
 	
 	//nicescroll
-	$("html").niceScroll({zindex:999,cursorborder:"",cursorborderradius:"2px",cursorcolor:"#191919",cursoropacitymin:.5});
+	$("html").niceScroll({zindex:1031,cursorborder:"",cursorborderradius:"4px",cursorcolor:"#191919",cursoropacitymin:.5,cursorwidth:10});
 	function initNice() {
 		if($(window).innerWidth() <= 960) {
 			$('html').niceScroll().remove();
 		} else {
-			$("html").niceScroll({zindex:999,cursorborder:"",cursorborderradius:"2px",cursorcolor:"#191919",cursoropacitymin:.5});
+			$("html").niceScroll({zindex:1031,cursorborder:"",cursorborderradius:"4px",cursorcolor:"#191919",cursoropacitymin:.5,cursorwidth:10});
 		}
 	}
 	$(window).load(initNice);
