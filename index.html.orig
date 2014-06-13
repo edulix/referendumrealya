@@ -68,13 +68,20 @@
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
 						<li><a href="#why">¿Por qué?</a></li>
 						<li><a href="#who">Quienes somos</a></li>
-                        <li><a href="como.html">¿Como?</a></li>						
-                        <li><a href="informacion.html">Información</a></li>
+<<<<<<< HEAD
+						<li><a href="#desk">Registra tu mesa</a></li>
+						<li><a href="como.html">¿Como?</a></li>
+            <li><a href="material.html">Material</a></li>
+            <li><a href="#adhesiones">Adhesiones</a></li>
+            <li><a href="#contact">Contacta</a></li>
+=======
+						<li><a href="informacion.html">Información</a></li>
             			<li><a href="material.html">Material</a></li>
             			<li><a href="#adhesiones">Adhesiones</a></li>
             			<li><a href="#contact">Contacta</a></li>
             			<li class="hidden"><a href="#"><img src="img/referendumrealya/es.png" alt='ES'></a></li>
             			<li class="hidden"><a href="#"><img src="img/referendumrealya/cat.png" alt='CAT'></a></li>
+>>>>>>> 9606bf4632f7a3d506f6c7cd1936661683f78157
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
@@ -168,7 +175,7 @@
 				<div class="col-lg-4" >
 					<div class="align-center">
 						<!--<i class="fa fa-terminal fa-5x mar-bot20"></i>-->
-                        <img src="img/referendumrealya/icono_mapa.png" alt='Mapa de mesas'>
+            <img src="img/referendumrealya/icono_mapa.png" alt='Mapa de mesas'>
 						<h4 class="text-bold">Mapa de mesas de consulta</h4>
 						<p>
 						  <iframe src="http://mesareferendum.herokuapp.com/mapa/" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

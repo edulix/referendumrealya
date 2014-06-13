@@ -7,8 +7,8 @@
 		<!-- BASICS -->
     <meta charset="utf-8">    
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>#ReferéndumRealYa - Tenemos derecho a decidir y participar</title>
-    <meta name="description" content="La iniciativa Referéndum Real Ya! pretende recoger la opinión de la ciudadanía sobre el modelo de Estado y sobre la posibilidad de abrir un proceso constituyente. Entre el 14 y el 19 de junio se podrá votar en las mesas electorales o por internet.">
+    <title>#ReferéndumRealYa - Toda la información</title>
+    <meta name="description" content="Toda la información de la iniciativa Referéndum Real Ya!">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
 		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -18,42 +18,9 @@
 		<!-- skin -->
 		<link rel="stylesheet" href="skin/default.css">
 		<link rel="shortcut icon" href="img/logoRefYA140x140.png">
-      
-       <!-- Cuenta atras -->
-         <script>
-        function countdown(id){
-    var fecha=new Date('2014','5','14','00','00','00')
-    var hoy=new Date()
-    var dias=0
-    var horas=0
-    var minutos=0
-    var segundos=0
-
-    if (fecha>hoy){
-        var diferencia=(fecha.getTime()-hoy.getTime())/1000
-        dias=Math.floor(diferencia/86400)
-        diferencia=diferencia-(86400*dias)
-        horas=Math.floor(diferencia/3600)
-        diferencia=diferencia-(3600*horas)
-        minutos=Math.floor(diferencia/60)
-        diferencia=diferencia-(60*minutos)
-        segundos=Math.floor(diferencia)
-
-        document.getElementById(id).innerHTML='Sólo falta ' + dias + ' D&iacute;as, ' + horas + ' Horas, ' + minutos + ' Minutos, ' + segundos + ' Segundos'
-
-        if (dias>0 || horas>0 || minutos>0 || segundos>0){
-            setTimeout("countdown(\"" + id + "\")",1000)
-        }
-    }
-    else{
-        document.getElementById('restante').innerHTML='Quedan ' + dias + ' D&iacute;as, ' + horas + ' Horas, ' + minutos + ' Minutos, ' + segundos + ' Segundos'
-    }
-}
-         </script>
-      
     </head>
 	 
-    <body onload="countdown('contador')">
+    <body>
 		<section id="header" class="appear"></section>
 		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.1);" data-300="line-height:30px; height:30px; background-color:rgba(0,0,0,1);">
 			 <div class="container">
@@ -66,163 +33,121 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li><a href="#why">¿Por qué?</a></li>
-						<li><a href="#who">Quienes somos</a></li>
-                        <li><a href="como.html">¿Como?</a></li>						
-                        <li><a href="informacion.html">Información</a></li>
-            			<li><a href="material.html">Material</a></li>
-            			<li><a href="#adhesiones">Adhesiones</a></li>
-            			<li><a href="#contact">Contacta</a></li>
-            			<li class="hidden"><a href="#"><img src="img/referendumrealya/es.png" alt='ES'></a></li>
-            			<li class="hidden"><a href="#"><img src="img/referendumrealya/cat.png" alt='CAT'></a></li>
+						<li><a href="index.html#why">¿Por qué?</a></li>
+						<li><a href="index.html#who">Quienes somos</a></li>
+						<li><a href="index.html#desk">Registra tu mesa</a></li>
+            <li><a href="material.html">Material</a></li>
+            <li><a href="index.html#adhesiones">Adhesiones</a></li>
+            <li><a href="index.html#contact">Contacta</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
 		</div>
-
-		<section class="featured first">
-			<div class="container"> 
+		
+		<!-- Menú -->
+        <section id="indice" class="featured">
+		<div class="container"> 
 				<div class="row mar-bot40">
-					<div class="col-md-7">
-						
-						<div class="align-center">
-              <img src="img/logoRefYA140x140.png" rel="image_src" alt='Referendum Real Ya'>
-							<h2 class="slogan">¡Refer&eacute;ndum Real Ya!</h2>
-							<p>
-							Desde el 14 hasta el 19 a las 12:00 de la mañana de junio de 2014. 
-              Presencialmente y por internet. <div id='contador'></div>
-              ¡Pon Tu Mesa!
-              </p>	
-              <br><br>
-						  <!-- <i class="fa fa-bolt fa-5x mar-bot20"></i> -->
-              <a href="informacion.html"><img src="img/referendumrealya/icono_urna02.png" alt='Saca tu punto de consulta'><img src="img/referendumrealya/IconoInfo.png" alt='Toda la información'>
-              <h2 class="slogan">Saca tu punto de consulta </h2>
-              <p>Toda la información sobre la consulta, documentación para comunicar la mesa a Delegación de Gobierno, formulario para registrar tu mesa en la consulta y protocolo.</p></a>                                     
-						</div>
-					</div>
-          <div class="col-md-1 hidden-xs"> </div>
-          <div class="col-md-4 align-center hidden-xs" data-twttr-id="twttr-sandbox-0">
-            <a class="twitter-timeline" href="https://twitter.com/search?q=%23ReferendumRealYa" data-widget-id="475238803410411520">Tweets sobre "#ReferendumRealYa"</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
+					<div class="col-md-8 col-md-offset-2 align-justify">
+					<br />
+					<br />
+					<img src="img/referendumrealya/IconoInfo.png" alt='Toda la información'>
+                    <h2 class="slogan"><a href="#indice" id="indice">Información</h2></a>
+                    	<ul>
+                    		<li><a href="#documentos">Documentos para descargar</a></li>
+                    		<li class="hidden"><a href="#preguntasyrespuestas">Preguntas y respuestas</a></li>
+                    		<li><a href="#inscripcion">Inscripción de una mesa</a></li>
+                    		<li><a href="#mesas">Modelo de comunicación de mesas para ayuntamientos 14-19J</a></li>
+                    		<li><a href="#delegacion">Modelo para comunicar a delegación la mesa 14-19J</a></li>
+                    	</ul>
+                    </div>
 				</div>
 			</div>
-		</section>
+		</section> 
 		
-		<!-- services>-->
-		<!-- <section id="section-services" class="section pad-bot30 bg-white">
+		<!-- documentos -->
+        <section id="documentos" class="featured">
 		<div class="container"> 
-    </div>
-    </section> -->
-    
-    
-    
-    <!-- Preguntas -->
-	<!--	<section id="parallax3" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
-			<div class="container">
-            <div class="align-center pad-top40 pad-bot40">
-                <blockquote class="bigquote color-white">¿Está usted de acuerdo con que la jefatura del Estado español sea elegida por sufragio universal?</blockquote>
-                <blockquote class="bigquote color-white">¿Está  usted de acuerdo en que se abra un proceso constituyente para que la ciudadanía  decida sobre el modelo organizativo del Estado español?</blockquote>
-				<p class="color-white"></p>
-            </div>
-			</div>	
-		</section> -->
-                
-                
-		<!-- spacer section:testimonial -->
-		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
-		  <div class="container">
-			  <div class="row">				
-					<div class="col-lg-12">
-						<div class="testimonial pad-top40 pad-bot40 clearfix">
-						  <h3 style="color:#FFFFFF;">
-					        <ul>
-						        <li>¿Está usted de acuerdo con que la jefatura del Estado español sea elegida por sufragio universal?</li>
-                    <li>&#160;&nbsp;&nbsp;&nbsp;SÍ &#x2751; NO &#x2751;</li>
-                    <li><br/></li>
-						        <li>¿Está  usted de acuerdo en que se abra un proceso constituyente para que la ciudadanía  decida sobre el modelo organizativo del Estado español?</li>
-                    <li>&#160;&nbsp;&nbsp;&nbsp;SÍ &#x2751; NO &#x2751;</li>
-                 </ul>
-							</h3>
-						  <div class="align-center">
-						    <span class="author" style="color:#FFFFFF;">Pronto podrás votar</span>
-						  </div>
-            </div>
-					</div>
-				</div>	
-		  </div>
-		</section>
-    </br></br>
+				<div class="row mar-bot40">
+					<div class="col-md-8 col-md-offset-2 align-justify">
+                    <a href="#documentos" id="documentos"><h2 style="color:#FFFFFF;">Documentos para descargar</h2></a>
+                    	<ul>
+                    		<li><a href="documentos/AVISO_LEGAL_CONSULTA_CIUDADANA_2014_V2.pdf">Aviso legal consulta ciudadana 2014</a></li>
+                    		<li><a href="documentos/Comunicación_mesa_para_realización_encuesta-consulta_referendumrealya.odt">Comunicación mesa para realización encuesta-consulta referendumrealya</a></li>
+                    		<li><a href="documentos/Formulario_de_Recuento_Manual_de_Votaciones.pdf">Formulario de Recuento Manual de Votaciones</a></li>
+                    		<li><a href="documentos/PROTOCOLO_1.0.pdf">Protocolo</a></li>
+                    	</ul>
+                    </div>
+				</div>
+			</div>
+		</section> 
 		
-			<div class="row mar-bot40">
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<!--<i class="fa fa-code fa-5x mar-bot20"></i>-->
-            <img src="img/referendumrealya/icono_movil.png" alt='Vota electonicamente'>
-						<h4 class="text-bold">Vota Electrónicamente</h4>
-						<p><a href="#">Pronto podrás votar</a>
-						</p>
-				  </div>
-				</div>
-					
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<!--<i class="fa fa-terminal fa-5x mar-bot20"></i>-->
-                        <img src="img/referendumrealya/icono_mapa.png" alt='Mapa de mesas'>
-						<h4 class="text-bold">Mapa de mesas de consulta</h4>
-						<p>
-						  <iframe src="http://mesareferendum.herokuapp.com/mapa/" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-						</p>
-					</div>
-				</div>
-			
-				<div class="col-lg-4" >
-				  <div class="align-center">
-						<!--<i class="fa fa-bolt fa-5x mar-bot20"></i>-->
-                                                <a href="material.html"><img src="img/referendumrealya/iconoMaterialDifusion02.png" alt='Material de difuson'></a>
-					<h4 class="text-bold">Material de difusión</h4>
-					</div>
-				</div>
-			
-			</div>	
-                        
-                        
-            
-            <section id="section-why" class="featured">
-              <a href="#why" id="why"></a>
+		 <!-- preguntasyrespuestas -->
+        <section id="preguntasyrespuestas" class="featured hidden">
 			<div class="container"> 
 				<div class="row mar-bot40">
 					<div class="col-md-8 col-md-offset-2 align-justify">
-                    <h2 style="color:#FFFFFF;">¿Por qué un referendum?</h2>
-                    <p>El pasado lunes día 2 de junio, Juan Carlos I de Borbón, el jefe del Estado estañol, ante la sorpresa de todo el país y de forma inesperada, presentó su carta de abdicación al presidente del gobierno Mariano Rajoy en favor de su hijo Felipe para que sea coronado como rey de España, con el nombre de Felipe VI, un proceso que tendrá lugar durante las próximas semanas.</p> 
-                    <p>Para que la sucesión se haga efectiva, el Congreso y el Senado deben aprobar una Ley Orgánica que articule todo el proceso. El Partido Popular y el Partido Socialista  Obrero Español ya han adelantado que tienen intención de respaldar a la Corona y que trabajarán para aprobar una ley que garantice la coronación de Felipe de Borbón y la salida de Juan Carlos I sin contar con la ciudadanía.</p> 
-                    <p>En un contexto de crisis social, política y económica, y en el que la institución monárquica ha perdido apoyo popular (3,71 puntos según el CIS), los dos partidos mayoritarios han optado por continuar como si nada sucediera y sin tener en cuenta las amplias demandas de cambio de un sector muy importante de la población del país. A esto se le añade el progresivo descrédito y desprestigio de estos partidos, visto no solo en las encuestas, sino también en las pasadas elecciones al parlamento europeo celebradas el 25 de mayo, en el que PP y PSOE obtuvieron menos del 50% del total de los votos y ambos perdieron un tercio de sus votantes.</p>
-                    <p>Esto es una señal de que una buena parte de la sociedad está demandando un cambio y que estas necesidades no se están viendo correspondidas por parte de las instituciones y los principales grupos políticos del país. Muchos clamamos desde hace ya varios años por el derecho a la participación política. Democracia no es votar cada cuatro años. Queremos ir más allá de las urnas, queremos decidir sobre todas aquellas cuestiones fundamentales, como son el modelo de organización del Estado o la elección democrática de la Jefatura de Gobierno.</p>					
+                    <a href="#preguntasyrespuestas" id="preguntasyrespuestas"><h2 style="color:#FFFFFF;">Preguntas y Respuestas</h2></a>
+
+						<p>Todas las personas mayores de 16 a&ntilde;os, espa&ntilde;olas o residentes en Espa&ntilde;a. Para votar deber&aacute;n presentar uno de estos siguientes documentos:  Para las personas de nacionalidad espa&ntilde;ola el DNI o pasaporte. En todo caso, se usar&aacute; el n&uacute;mero del DNI que aparece en el pasaporte.  Para otras nacionalidades: permiso de residencia o pasaporte</p>
+
+<p>2. INSCRIPCIONES DE MESAS</p>
+
+<p>web http://www.referendumrealya.com/index.html#desk  pad https://titanpad.com/ReferendumRealYa-Mesas </p>
+
+<p>3. MESAS</p>
+
+<p>- Composici&oacute;n Cada mesa de votaci&oacute;n se compone de un grupo de personas voluntarias que se turnan para que la mesa est&eacute; operativa y que se organizan y reparten las tareas seg&uacute;n su disponibilidad y acuerdo. Debe haber siempre como m&iacute;nimo 2 presentes en la mesa. </p>
+
+<p>- Infraestructura para cada mesa:  Un ordenador, una tablet o un tel&eacute;fono m&oacute;vil con conexi&oacute;n a internet para poder hacer la verificaci&oacute;n de la duplicidad de los votos.  Una urna con el c&oacute;digo identificativo (no en el caso de las mesas digitales). Papeletas de voto suficientes para el d&iacute;a y bol&iacute;grafos (no en el caso de mesas digitales). Cartel para que se identifique la mesa sea itinerante o fija Adem&aacute;s un cartel donde venga el registro de recogida de datos (LINK)</p>
+
+<p>- Margen temporal de votaci&oacute;n:  Desde el d&iacute;a 14 al 18 de junio, de 9 a 21 horas, y el 19 de junio hasta las 12:00, seg&uacute;n la disponibilidad de los voluntarios en cada mesa. La disponibilidad de horario se har&aacute; constar en el formulario de inscripci&oacute;n de la mesa para informar de &eacute;l a los votantes.</p>
+
+<p>- Tipos de mesas Fijas REQUIERE COMUNICACI&Oacute;N AL AYUNTAMIENTO 10 D&Iacute;AS ANTES) Mira: El escrito a la subdelegaci&oacute;n y con 24h de antelaci&oacute;n sin mas para poner mesa informativa-reivindicativa.&iquest;alg&uacute;n link donde se recoja esto de las 24h para incluir como info tranquilizadora? estoy esperando a que me contesten ok LINK https://titanpad.com/ReferendumRealYaSolicGob Las mesas se pondr&aacute;n en sus localizaciones (en aceras sin invadir calzada de veh&iacute;culos y sin obstaculizar el acceso a edificios)  Itinerantes (sin localizaci&oacute;n fija ni mesa apoyada en el suelo; podr&aacute;n recoger votos recorriendo las calles, plazas, mercados, etc.)  Las mesas itinerantes no necesitan autorizaci&oacute;n previa al no estar ocupando la v&iacute;a publica. Para esta mesa har&aacute;n falta 3 personas: una porta la urna y las papeletas otra el verificador por internet,  otra lleva un cartel identificativo. </p>
+
+<p>4. PROTOCOLO DE VOTACI&Oacute;N </p>
+
+<p>a) Desde la web http://www.referendumrealya.com Pinchas en la votaci&oacute;n Te lleva a otra web,  Metes datos, nombre apellidos, dni, est&aacute;s de acuerdo con las condiciones Te lleva a la pagina de votaci&oacute;n Votas Sales de la p&aacute;gina</p>
+
+<p>b) Mesas </p>
+
+<p>Para votar Antes de votar, el votante asume: Que se verifica por internet el documento de identidad y queda registrado, asociado a un c&oacute;digo, exclusivamente hasta el t&eacute;rmino del referendum para evitar duplicidad en los votos. Que la edad m&iacute;nima para votar es de 16 a&ntilde;os. Que no se puede votar en ninguna otra mesa, pues el voto duplicado podr&iacute;a invalidar las dos urnas, al no poderse comprobar cual es el DNI correcto ni cuales los votos en cuesti&oacute;n una vez introducida la papeleta Compromisos de la persona fedataria: En mesa digital: la fedataria en ning&uacute;n caso podr&aacute; votar por la votante, que debe emitir su voto con la suficiente intimidad. Una vez identificada la persona, se le facilitar&aacute; una papeleta de voto (sin sobre), en la cual deber&aacute; marcar con un aspa (debe facilitarse la confidencialidad) la casilla que quiera.  Esta papeleta, una vez doblada, ser&aacute; introducida por el fedatario en la urna, asegur&aacute;ndose de que solo se introduce una papeleta. </p>
+
+<p>Para comprobar que no existe duplicidad en los votos:</p>
+
+<p>A las fedatarias se les entregar&aacute; una clave para poder acceder al programa de votaciones. Las personas que voten tendr&aacute;n que ense&ntilde;ar su identificaci&oacute;n. (DNI-obligatorio para Nacionalidad Espa&ntilde;ola-, permiso de residencia o pasaporte) Ser&aacute; la persona fedataria quien comprobar&aacute; que el dni corresponde con la persona que vota.  Las fedatarias deber&aacute;n introducir los datos del votante (nombre apellidos y dni) en la web a traves del m&oacute;vil, tablet o port&aacute;til.</p>
+
+<p>&iquest;C&oacute;mo funciona la aplicaci&oacute;n para el smartphone? </p>
+
+<p>Gracias a nuestro equipo t&eacute;cnico hemos preparado una aplicaci&oacute;n de control de duplicados digital a la que tendr&aacute; que acceder desde el navegador de internet de un smartphone.  A las administradoras de mesas o fedatarias se les entregar&aacute; por correo electronico o tel&eacute;fono una contrase&ntilde;a para acceder a la aplicaci&oacute;n.  A trav&eacute;s de la misma har&aacute;n el control de duplicados para los votos en urna.  Est&aacute;s administradoras deber&aacute;n estar siempre en contacto para posibles incidencias.</p>
+
+<p>5. ANTE POSIBLES INCIDENCIAS En caso de documento duplicado:  En el programa aparece informaci&oacute;n adicional (nombre y apellidos). Si los datos corresponden a la misma persona, no puede volver a votar.  Si corresponden a otra persona distinta, puede votar. Algunos n&uacute;meros de DNI est&aacute;n duplicados por fallos administrativos. Es muy poco probable que ocurra, pero es posible. </p>
+
+<p>Si ponen trabas a una mesa fija Si las fuerzas de seguridad ponen trabas al ejercicio de nuestros derechos por la recogida de datos de una mesa de votaci&oacute;n fija en el espacio p&uacute;blico, se comunica a ?????????????????? y se denuncia por redes sociales con el hastag # _____________ y que la mesa se convierta en itinerante. En este caso, y cualquier otro de gravedad similar, llamar al tel&eacute;fono de la Coordinaci&oacute;n Legal 6XX XXX XXX <----- CAMBIAR, para recibir asesoramiento, facilitar la informaci&oacute;n de la incidencia y as&iacute; poder iniciar las acciones de recurso.</p>
+
+<p>Si ponen trabas a una mesa itinerante La recogida de firmas no es una manifestaci&oacute;n ni una concentraci&oacute;n, por lo que no necesita autorizaci&oacute;n de la delegaci&oacute;n de gobierno. Al no ocupar la v&iacute;a publica con una mesa fija, no necesita autorizaci&oacute;n del ayuntamiento. Lo que estamos haciendo es una encuesta de opini&oacute;n con la recogida de datos registrada en la LOPD (si os solicitan el registro en la LOPD le ense&ntilde;&aacute;is el folio visible del cartel) Procurad siempre evitar la confrontaci&oacute;n cambiando de lugar Si esta se da, es importante documentar la incidencia con fuerzas de seguridad con foto, v&iacute;deo siempre que se pueda. Si podemos hacer streaming, mejor. Puede que no se cierre la mesa, pero se tengan que denunciar actitudes de presi&oacute;n; por tanto, es mejor no esperar a que se produzca el incidente y estar preparados para grabar. Comunicaci&oacute;n con la persona de contacto: se har&aacute; a traves de e-mail o de tel&eacute;fono de contacto que se intercambia al inscribir la mesa.</p>
+
+<p>6. ESCRUTINIO DE LOS VOTOS EMITIDOS EN LAS URNAS PRESENCIALES</p>
+
+<p>El escrutinio ser&aacute; p&uacute;blico para quien quiera presenciarlo. El resultado total ser&aacute; comunicado lo antes posible (en los 90 minutos posteriores al cierre de la mesa) al centro de escrutinio, @referendumrealya.com Los votos validos ser&aacute;n aquellos que est&eacute;n emitidos marcando con una cruz las casillas de respuestas , o dejando en blanco una casilla o las dos casillas. Una vez finalizado el proceso de votaci&oacute;n de cada d&iacute;a, se proceder&aacute; a abrir la urna, y se har&aacute; recuento de votos siguiendo el siguiente modelo  acta de votaci&oacute;n firmada al menos por dos fedatario (que dan fe) del recuento final de la urna. (<<---FALTA PLANTILLA EN PDF) Codigo de la mesa, d&iacute;a Numero de votos totales N&uacute;mero de votos nulos Pregunta 1: TOTAL SI NO EN BLANCO Pregunta 2 TOTAL SI NO EN BLANCO Numero de votos con las 2 respuestas en blanco</p>
+
+<p>7. PROTECCI&Oacute;N DE DATOS (FAQ)</p>
+
+<p>&iquest;C&oacute;mo se trata la informaci&oacute;n del DNI? Se guarda en alg&uacute;n sitio?  El numero del DNI, tarjeta de residencia o pasaporte no se guarda tal cual, sino a trav&eacute;s de un numero identificativo, solo con el efecto de comprobar los duplicados. http://es.wikipedia.org/wiki/Funci%C3%B3n_hash</p>
+
+<p>&iquest;Y mi nombre est&aacute; asociado a mi DNI?  No, el nombre y los apellidos no estar&aacute;n asociados al DNI, tarjeta de residencia o pasaporte sino que estaran asociados al n&uacute;mero identificativo que se genera con una funci&oacute;n numerica (hash). No es posible que con ese numero identificativo puedas saber a qu&eacute; documento corresponde. http://es.wikipedia.org/wiki/Funci%C3%B3n_hash</p>
+
+<p>Y despu&eacute;s &iquest;qu&eacute; pasa con mis datos?  Durante la votaci&oacute;n los n&uacute;meros identificativos se van acumulando en un fichero alojado en un servidor de internet. Una vez que se acaba la votaci&oacute;n, se borran todos los datos del servidor donde est&aacute; el fichero. El certificado del registro de la consulta en la LOPD estar&aacute; presente en las mesas y en las p&aacute;ginas en todo momento. Comentar a las personas mas reticentes que puede consultar en la Agencia Espa&ntilde;ola de Protecci&oacute;n de Datos, quienes son los responsables de estos ficheros para cualquier cuesti&oacute;n,  </p>
+			
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<!-- Quiénes Somos -->
-		<section id="section-about" class="section appear clearfix">
-		<a href="#who" id="who"></a>
-		<div class="container">
-
-				<div class="row mar-bot40">
-					<div class="col-md-offset-2 col-md-8 align-justify">
-							<h2>Quiénes Somos</h2>
-							<p>Somos un grupo de personas procedentes de diversos colectivos y movimientos sociales de todo el país que, hace unos días, ante la noticia de la abdicación de Juan Carlos I, nos organizamos para trabajar y reivindicar el derecho de la ciudadanía a decidir sobre el modelo de Estado que queremos.</p>
-							<p>Todo el trabajo del referéndum ciudadano se está dinamizando desde un grupo de más de 100 personas que participamos de manera activa en distintos grupos; desde movimientos sociales hasta partidos pol&iacute;ticos. Se ha organizado con metodología horizontal y participativa. Es abierto y cualquier persona puede participar en el mismo.</p>
-					</div>
-				</div>			
-		</div>
-		</section>
-		<!-- /Quiénes Somos -->
-
+		</section>           
+                
 
 	<!-- mesa -->
-		<section id="section-desk" class="section clearfix">
-      <a href="#desk" id="desk"></a>
+		<section id="mesa" class="section clearfix">
+      <a href="#inscripcion" id="inscripcion"></a>
 			<div class="container">
 				<div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
@@ -239,6 +164,7 @@
         <div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
+						<a href="#mesas" id="mesas"></a>
 							<h2 class="section-heading animated" data-animation="bounceInUp">MODELO DE COMUNCIACIÓN DE MESAS PARA AYUNTAMIENTOS 14-19J</h2>
               <h4 class="section-heading animated" data-animation="bounceInUp">(modificar lo que corresponda)</h4>
 						</div>
@@ -291,6 +217,7 @@ La  referencia de la sentencia y el fallo que respalda la celebración de la  co
 				<div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
+						<a href="#delegacion" id="delegacion"></a>
 							<h2 class="section-heading animated" data-animation="bounceInUp">MODELO PARA COMUNICAR A DELEGACIÓN LA MESA 14-19J</h2>
               <h4 class="section-heading animated" data-animation="bounceInUp">(modificar lo que corresponda)</h4>
 						</div>
@@ -322,18 +249,7 @@ Que teniendo por presentado este escrito, so sirva admitirlo, tenga por hechas l
 		
 			</div>
 		</section>
-               
-                <!-- Adhesiones -->
-                 <section id="section-adhesiones" class="featured">
-			<div class="container"> 
-				<div class="row mar-bot40">
-					<div class="col-md-8 col-md-offset-2 align-justify">
-                    <a href="#adhesiones" id="adhesiones"><h2 style="color:#FFFFFF;">Adhesiones</h2></a>
-                    <p>Piratas de Madrid | Piratas de Aragón | Piratas de L'Hospitalet | DRY Madrid | DRY Girona | DRY Cartagena | Piratas de la Comunidad Valenciana | 15MBruselas | 15hack | Podemos Malasaña | Spanish Revolution | Tribunal Ciudadano de Justicia | Audiovisol | Asamblea Lavapiés | Asamblea Carabanchel | Asamblea Coslada | Marea Granate | Alcosanse 15M | Iaioflautas | Marea Granate Lisboa | Marea Granate Zurich | Acampada Benavente | DRY Villena | DRY Valencia | Movimiento por la Democracia Málaga | AUNDFE | Ciudadano Qué Cartagena | Marea Granate Buenos Aires | Ezker Anitza-IU Ermua | AP 15M VICALVARO | TomaLaTele | Alternativa Socialista (CLI-AS) | Democracia XXI.20: El poder en el Pueblo | Movimiento Ciudadano por el Cambio del Modelo Político | Foro Andalucía | Ley Andaluza de Participación Ciudadana | Plataforma Granada - Agrupación de Movimientos Ciudadanos | Podemos Círculo Cinco Villas | Diversidad Mundial | Podemos Círculo Vicálvaro | Ateneu Roig | Pirates de Catalunya</p>	
-					</div>
-				</div>
-			</div>
-		</section>           
+                       
                 
 
     <!-- Contacta -->
