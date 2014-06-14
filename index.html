@@ -91,8 +91,8 @@
 			<img src="img/referendumrealya/icono_movil.png" alt='Vota electonicamente'>
 			<h2 class="slogan">¡Refer&eacute;ndum Real Ya!</h2></a>
 			<p>Desde el 14 hasta el 19 a las 12:00 de la mañana de junio de 2014. 
-              Presencialmente y <a href="https://vota.referendumrealya.com/#identify">por internet. ¡Vota ya!</a> <div id='contador'></div>
-              ¡Pon Tu Mesa!
+              Presencialmente y <a href="https://vota.referendumrealya.com/#identify">por internet. ¡Vota ya!</a> <div id='votos'><a href="https://vota.referendumrealya.com/#identify"><button type="button" class="btn btn-primary btn-lg btn-block"><strong id="xxvotexx"></strong> personas ya han votado. ¿Y tú?.</button></a></div><br>
+              <a href="#desk">¡Pon Tu Mesa!</a>
               </p>	
               <br><br>
 						  <!-- <i class="fa fa-bolt fa-5x mar-bot20"></i> -->
@@ -389,6 +389,9 @@ Que teniendo por presentado este escrito, so sirva admitirlo, tenga por hechas l
 	<script src="js/validate.js"></script>
     <script src="js/main.js"></script>
         <script type="text/javascript">
+            $.getJSON('https://dario.im/minshu/api/v1/voters/count', function(data) {
+                $('#xxvotexx').html(data);
+            });
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
         
