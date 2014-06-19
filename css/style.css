@@ -1160,8 +1160,13 @@ Media queries
     font-weight: 900;
     font-size: larger;
 }
-.abstencion { 
+.enblanco { 
 	color: #95D3DB;
+    font-weight: 900;
+    font-size: larger;
+}
+.total { 
+	color: #FFFFFF;
     font-weight: 900;
     font-size: larger;
 }
