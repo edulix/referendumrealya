@@ -1142,12 +1142,26 @@ Media queries
 	}
 }
 .tarta {
-	margin-left: 20%;
-	margin-top: 20px;
-	
+	margin-left: 10%;
+	margin-top: 20px;	
 }
 .leyenda {
-	margin-left: 20%;
+	text-align: left;
+	margin-left: 10%;
 	margin-top: 20px;
-	
+}
+.si { 
+	color: #E0E172;
+    font-weight: 900;
+    font-size: larger;
+}
+.no { 
+	color: #E6488A;
+    font-weight: 900;
+    font-size: larger;
+}
+.abstencion { 
+	color: #95D3DB;
+    font-weight: 900;
+    font-size: larger;
 }
